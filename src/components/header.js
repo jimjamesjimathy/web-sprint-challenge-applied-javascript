@@ -22,7 +22,7 @@ const Header = (title, date, temp) => {
   // add text content to the created elements
   spanElement1.textContent = date;
   h1Element.textContent = title;
-  spanElement2.textContent = temp;
+  spanElement2.textContent = `Temperature is ${temp} degrees`;
   //
   //  <div class="header">
   //    <span class="date">{ date }</span>
@@ -36,7 +36,7 @@ const Header = (title, date, temp) => {
 
 const headerAppender = (selector) => {
   const appendToMe = document.querySelector(selector);
-  const returnHeader = Header('James Kirkwood', '10/29/21', 69)
+  const returnHeader = Header('Extree, Extree! Read all about it!', '10/29/21', 69)
   appendToMe.appendChild(returnHeader);
   // TASK 2
   // ---------------------
