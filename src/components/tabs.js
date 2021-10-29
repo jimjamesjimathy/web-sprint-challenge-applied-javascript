@@ -28,7 +28,6 @@ const Tabs = (topics) => {
   //   <div class="tab">technology</div>
   // </div>
   //
-  console.log(topicsDiv);
   return topicsDiv;
 };
 // Tabs(['clam', 'chowder', 'sucks']);
